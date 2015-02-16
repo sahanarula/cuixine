@@ -29,7 +29,7 @@ app.use(bodyParser());
 
 // Entry point for Layouts
 app.get('/', function(req, res){
-	res.send('hello world');
+	res.send('hey there!');
 })
 
 app.get('/register', function(req, res){
