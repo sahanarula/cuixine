@@ -1,0 +1,16 @@
+{
+  "name": "cuixine",
+  "version": "0.0.0",
+  "description": "cuixine rest apis using MEAN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "author": "Sahil Narula",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.11.2",
+    "body-parser": "~1.12.0",
+    "jade": "~1.9.2"
+  }
+}
