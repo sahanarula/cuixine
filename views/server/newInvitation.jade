@@ -1,0 +1,12 @@
+html
+	head
+		title Register Page
+	body
+		.container#register-container
+			form(id="invitation-form", method="post", action="/api/invitation/create")
+				br
+				input(type="email", name="email", placeholder="Enter Email id to generate invitation(s) for")
+				br
+				br
+				input(type="number", name="count", placeholder="Number of invitations to generate")
+				input(type="submit", value="Submit")
